@@ -6,8 +6,7 @@ import CardWrapper from '@/app/ui/dashboard/cards';
 import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
  
-export default async function Page() {
-    
+export default function Page() {
 
   return (
     <main>
